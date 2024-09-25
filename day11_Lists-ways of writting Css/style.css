@@ -1,0 +1,29 @@
+ul{
+    /* list-style-type:circle;*/
+    list-style-image: url("./images/car-16x16.png");
+}
+
+ul li::marker{
+    content: " 🚗";
+}
+.TATASub::marker{
+    content: "🏎️";
+}
+.TATASub1::marker{
+    content: "🚨";
+}
+
+dt{
+    color: red;
+}
+dd{
+    color: blue;
+}
+
+
+img{
+    width: 250px;
+    background-color: yellow;
+    border: 5px solid red;
+
+}
